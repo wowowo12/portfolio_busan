@@ -1,7 +1,31 @@
-.movie_bg{width:100%; height:100%; position:relative; background-color:rgba(0,0,0,0.4)}
+.movie_bg{width:100%; height:100%; position:relative;background-color:rgba(0,0,0,0.4)}
 .clearfix:before,
 .clearfix:after {
     content: " "; 
     display: table;
     clear: both;
 }
+/* header */
+#header{width:100%; height:100%;  text-align:center;}
+#header>.table{display:table; width:100%; height:calc(100% - 108px);}
+#header>.table>.table-cell{display:table-cell; vertical-align: middle;}
+.title{max-width:933px; width:90%;}
+.navs{background-color:rgba(0,0,0,0.5); padding:1em 0;}
+.navs .logo{margin-bottom:0.5em;}
+.navs .nav>li{float:left; width:16.66%; }
+.nav>li>a{width:inherit;}
+
+/* about */
+#about{background-color:#fff;}
+#about>.samrock{padding:25px 0; text-align:center;}
+#about>.ab_ban{background-image:url("../img/about_img.jpg"); background-attachment: fixed; background-size:cover;
+font-stretch: semi-condensed}
+.ab_ban>.ab_ban_txt{padding:100px 0;}
+.ab_ban_txt>h2{font-weight:600; font-size:3em;}
+#about>.ab_txt{color:#5e5e5e; text-align:center; font-weight:400; padding:50px 0; }
+/* artist */
+#artist{background-color:#fff;}
+.artist>li{float:left; width:25%; background-color:#fff;}
+.news1{background-color:#ffc594;}
+.news2{background-color:#d1afc0;}
+

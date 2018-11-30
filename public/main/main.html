@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <script defer src="/__/firebase/5.5.9/firebase-app.js"></script>
+  <script defer src="/__/firebase/5.5.9/firebase-auth.js"></script>
+  <script defer src="/__/firebase/5.5.9/firebase-database.js"></script>
+  <script defer src="/__/firebase/init.js"></script>
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script defer src="../js/jquery.tubular.1.0.js"></script>
+  <script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+  <title>Busan rock festival</title>
+</head>
+
+<body>
+  <div class="movie_bg">
+    <header id="header">
+      <div class="navs">
+        <div class="row">
+          <div class="logo">
+            <a href="#"><img src="../img/logo_icon.png"></a>
+          </div>
+          <ul class="nav clear">
+            <li><a href="#">ABOUT</a>
+            </li>
+            <li><a href="#">ARTIST</a></li>
+            <li><a href="#">TIME TABLE</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">ADDRESS</a></li>
+            <li><a href="#">CONTACT </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="table"><div class="table-cell"><img src="../img/logo.png" class="title"></div></div>
+    </header>
+    <section id="about">
+      <div class="samrock"><img src="../img/samrock.png"></div>
+      <div class="ab_ban">
+        <div class="ab_ban_txt">
+          <hr>
+          <h2>음악이 즐겁고</h2>
+          <h2>사람이 즐겁고</h2>
+          <h2>자연이 즐겁다</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="ab_txt">
+        <p>부산국제록페스티벌은 2000년 첫 개최된 이래 2018년 제19회를 맞는 국내 최장수 록페스티벌로 부산에서 펼쳐지는 역동적인 아시아대표 록페스티벌로</p>
+        <p>자리매김 하고 있습니다. 부산을 비롯한 전국의 인디밴드들과 국내외 최정상 밴드 공연으로 사상구 삼락생태공원에서 매년 8월에 개최되고 있으며, </p>
+        <p>국내 최고수준의 라인업을 자랑하고 있습니다. 부산국제록페스티벌은 국제교류 활성화를 통한 아티스트 교류사업을 진행해오고 </p>
+        <p>있으며, 록밴드 경연대회, 신인뮤지션 발굴 및 아마추어밴드 활성화를 위해 노력하고 있습니다.</p>
+      </div>
+    </section>
+    <section id="artists">
+      <ul class="artist clear">
+        <li><img src="../img/artist1.png" class="img"><img src="../img/logo1.png" alt=""></li>
+        <li><img src="../img/artist2.png" class="img"> <img src="../img/logo2.svg"></li>
+        <li><img src="../img/artist3.png" class="img"> <img src="../img/logo3.png"></li>
+        <li><img src="../img/artist4.png" class="img"> <img src="../img/logo4.png"></li>
+        <li><img src="../img/artist5.png" class="img"> <img src="../img/logo5.png"></li>
+        <li><img src="../img/artist6.png" class="img"> <img src="../img/logo6.png"></li>
+        <li><img src="../img/artist7.png" class="img"> <img src="../img/logo7.png"></li>
+        <li><img src="../img/artist8.png" class="img"> <img src="../img/logo8.png"></li>
+      </ul>
+    </section>
+    <section class="time_table">
+      <div class="time_lt"></div>
+      <div></div>
+
+    </section>
+    <section class="news">
+      <div class="news1">
+        <div class="news_img1">
+          <img src="../img/news1.png">
+        </div>
+        <div class="news_txt">
+          <h6>NEWS</h6>
+          <hr>
+          <h4>WOUTER HAMEL , HEY NOW</h4>
+          <p>펑키한 리듬에 도회적 블루스를 담아 노래하는, WOUTER HAMEL을 소개합니다.</p>
+          <button class="btn">View more</button>
+        </div>
+      </div>
+      <div class="news2">
+        <div class="news_img2">
+          <img src="../img/news2.png">
+        </div>
+        <div class="news_txt">
+          <h6>NEWS</h6>
+          <hr>
+          <h4>HARRY STYLES, SIGN OF THE TIME.</h4>
+          <p>전세계를 호령하는 아이돌 One direction의 막내 솔로로 돌아온 Haryy styles의 첫 내한.</p>
+          <button class="btn">View more</button>
+        </div>
+      </div>
+    </section>
+    <section class="address">
+      <div class="row">
+        <div class="add_rt">
+          <h6>NEWS</h6>
+          <hr>
+          <p>장소 : 사상구 삼락생태공원</p>
+          <p>일정 2019.08.21~ 08.24</p>
+          <p>문의 051-501-60541</p>
+          <button class="btn_c">구글지도로 보기</button>
+          <button class="btn_c">네이버 지도로 보기</button>
+        </div>
+        <div class="add_lt">
+          <div class="add_img">
+            <img src="../img/map.png">
+          </div>
+          <p>- 일반버스 : 123, 126번 삼락생태공원 하차, 낙동강변 방향 도보 5분</p>
+          <p>- 도시철도 : 2호선 사상역 하차(3번 출구) 후 가로수길을 지나 강변나들교를 건너 도보로 약 15분 거리</p>
+        </div>
+      </div>
+    </section>
+    <div id="contact">
+      <button class="btn">Contact +</button>
+    </div>
+    <footer>
+      <ul class="foot_nav clear">
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">ARTIST</a></li>
+        <li><a href="#">TIME TABLE</a></li>
+        <li><a href="#">NEWS</a></li>
+        <li><a href="#">ADDRESS</a></li>
+        <li><a href="#">CONTACT </a></li>
+      </ul>
+      <ul>
+        <li class="foot_logo_1"><a href="#"><img src="../img/logo_icon.png"></a></li>
+        <li class="foot_logo_2"><a href="#"></a><img src="../img/dynamic_busan.png"></a></li>
+        <li class="foot_txt">
+          <p><span>(사)부산문화관광축제조직위원회</span><span>개인정보처리방침 | 이메일무단수집거부</span></p>
+          <p>대표전화 : 051-501-6051(우)47500 부산광역시 연제구 월드컵대로 344(거제동 1299) 아시아드주경기장</p>
+        </li>
+      </ul>
+    </footer>
+    <script defer src="../js/main.js"></script>
+</body>
+
+</html>
