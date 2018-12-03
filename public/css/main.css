@@ -17,7 +17,7 @@
 
 /* about */
 #about{background-color:#fff;}
-#about>.samrock{padding:2rem 0; text-align:center;}
+#about>.samrock{padding:25px 0; text-align:center;}
 #about>.ab_ban{background-image:url("../img/about_img.jpg"); background-attachment: fixed; background-size:cover;
 font-stretch: semi-condensed}
 .ab_ban>.ab_ban_txt{padding:7rem 0;}
@@ -40,7 +40,31 @@ max-height:346px; overflow:hidden; background-color:#000;}
 .news_txt>hr{border-top:2px solid #fff;; width:20px; display:block; margin-top:3px;
 margin-bottom:0.8rem;}
 .news_txt>p{margin-bottom:1rem;}
-.btn{outline:none; border:1px solid #fff; background:transparent}
-.btn>a{padding:0.4rem 1.25rem; color:#fff; display:block;}
-.btn>a:hover{background-color:#fff;}
+.news_txt>.btn{outline:none; border:1px solid #fff; background:transparent}
+.news_txt>.btn>a{padding:0.4rem 1.25rem; color:#fff; display:block;}
+
+#address{background-image:url("../img/banner3.png"); max-height:500px; height:100%;}
+#address>.row{height:100%}
+#address>.row>.add_lt{width:25%; background-color:rgba(255,255,255,0.3);
+height:100%;}
+.add_lt>hr{border-top:2px solid #fff;; width:20px; display:block; margin-top:3px;
+    margin-bottom:0.8rem; text-align: center;}
+.add_lt>p{font-size:0.9em;}
+.add_lt>.btn_c{outline:none;border:none; width:70%;  border-radius:30px; 
+     padding:0.5rem 0;  background-image:linear-gradient(to right,#7f597e, #955970, #e6827f);}
+
+#address .add_rt{width:65%;}
+.add_rt>.add_img{margin-top:15px; margin-bottom:10px; text-align:center;}
+#contact{background-color:#fff; padding:75px 0; text-align:center;}
+#contact>.btn{outline:none; border:1px solid #000; background:transparent;}
+#contact>.btn>a{padding:0.4rem 1.25rem; color:#000; display:block;}
+#footer{background-color:#5d5d5d}
+
+
+.foot_nav{border-bottom:1px solid rgba(225,225,225,0.7);}
+.foot_nav li{float:left; width:16.66%; text-align:center}
+.foot_nav li>a{width:100%; display:block ; padding:0.6rem 0;}
+.foot_txt{padding:1rem 0;}
+.foot_logo_1{margin-left:2rem;}
+.foot_logo_2{margin-left:2rem;}
 
