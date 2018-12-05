@@ -7,7 +7,9 @@ $(".artist>li").hover(function(){
     $(this).find(".img").css({"transform":"scale(1)","opacity":"1",});
     $(this).find(".art_logo").stop().fadeOut(100);
 });
-
+$(".bars").click(function(){
+    $(".nav").stop().slideToggle();
+});
 function autoHeight(){
     $(".hei_wrap").imagesLoaded().done(heiCalc);
     $(window).resize(heiCalc);
@@ -19,3 +21,10 @@ function autoHeight(){
     }
 }
 autoHeight();
+var wid=$(window).width()
+if(wid<480){
+$("#time_table .btn").click(function(){
+    $(".time_rt").css({"display":"none"});
+    $(".time_lt").css({"display":"block"});
+});
+}

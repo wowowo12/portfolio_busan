@@ -22,9 +22,11 @@
 </head>
 
 <body>
+ 
   <div class="movie_bg">
     <header id="header">
       <div class="navs">
+        <i class="fas fa-bars bars"></i>
         <div class="row">
           <div class="logo">
             <a href="#"><img src="../img/logo_icon.png"></a>
@@ -69,23 +71,22 @@
         <li><img src="../img/artist2.jpg" class="img"> <img src="../img/logo2.svg" class="art_logo"></li>
         <li><img src="../img/artist3.jpg" class="img"> <img src="../img/logo3.png" class="art_logo"></li>
         <li><img src="../img/artist4.jpg" class="img"> <img src="../img/logo4.png" class="art_logo"></li>
-        <li><img src="../img/artist5.jpg" class="img"> <img src="../img/logo5.png" class="art_logo"></li>
-        <li><img src="../img/artist6.jpg" class="img"> <img src="../img/logo6.png" class="art_logo"></li>
-        <li><img src="../img/artist7.jpg" class="img"> <img src="../img/logo7.png" class="art_logo"></li>
-        <li><img src="../img/artist8.jpg" class="img"> <img src="../img/logo8.png" class="art_logo"></li>
+        <li class="h_480"><img src="../img/artist5.jpg" class="img"> <img src="../img/logo5.png" class="art_logo"></li>
+        <li class="h_480"><img src="../img/artist6.jpg" class="img"> <img src="../img/logo6.png" class="art_logo"></li>
+        <li class="h_480"><img src="../img/artist7.jpg" class="img"> <img src="../img/logo7.png" class="art_logo"></li>
+        <li class="h_480"><img src="../img/artist8.jpg" class="img"> <img src="../img/logo8.png" class="art_logo"></li>
       </ul>
     </section>
     <section id="time_table" class="clear hei_wrap">
-      
-        <div class="time_lt fl hei_elem">
+        <div class="time_lt hei_elem">
           <img src="../img/line_up1.png" class="img">
         </div>
-        <div class="time_rt fr">
+        <div class="time_rt">
           <div class="time_rt_txt">
             <h2>STAGE</h2>
             <h2>SAMROCK</h2>
             <hr>
-            <button class="btn"><a href="#">Download</a></button>
+            <button class="btn"><a>Download</a></button>
           </div>
         </div>
     </section>
@@ -94,11 +95,11 @@
         <div class="news_img1 hei_elem">
           <img src="../img/news1.png" class="img">
         </div>
-        <div class="news_txt clear">
+        <div class="news_txt news_txt_c1 clear">
           <h6>NEWS</h6>
           <hr>
           <h2>WOUTER HAMEL , HEY NOW</h2>
-          <p>펑키한 리듬에 도회적 블루스를 담아 노래하는, WOUTER HAMEL을 소개합니다.</p>
+          <p><span>펑키한 리듬에 도회적 블루스를 담아 노래하는,</span><span>WOUTER HAMEL을 소개합니다.</span></p>
           <button class="btn fr"><a href="#">View more</a></button>
         </div>
       </div>
@@ -106,10 +107,10 @@
         <div class="news_img2 hei_elem">
           <img src="../img/news_2.png" class="img">
         </div>
-        <div class="news_txt clear">
+        <div class="news_txt news_txt_c2 clear">
           <h6>NEWS</h6>
           <hr>
-          <h2>HARRY STYLES, SIGN OF THE TIME.</h2>
+          <h2><span>HARRY STYLES,</span> SIGN OF THE TIME.</span></h2>
           <p>전세계를 호령하는 아이돌 One direction의 막내 솔로로 돌아온 Harry styles의 첫 내한.</p>
           <button class="btn fr"><a href="#">View more</a></button>
         </div>
@@ -117,18 +118,18 @@
     </section>
     <section id="address">
       <div class="row clear">
-        <div class="add_lt fl">
+        <div class="add_lt">
           <div class="add_lt_txt">
-            <h6>NEWS</h6>
+            <h6>ADDRESS</h6>
             <hr>
             <p>장소 : 사상구 삼락생태공원</p>
             <p>일정 2019.08.21~ 08.24</p>
             <p>문의 051-501-60541</p>
           </div>
           <button class="btn_c"><a href="#">구글지도로 보기</a></button>
-          <button class="btn_c"><a href="#">네이버 지도로 보기</a></button>
+          <button class="btn_c"><a href="#">다음지도로 보기</a></button>
         </div>
-        <div class="add_rt fr">
+        <div class="add_rt">
           <div class="add_img">
             <img src="../img/map.png">
           </div>
@@ -154,14 +155,16 @@
       </ul>
       <div class="row">
         <ul class="foot_txt clear">
-          <li class="foot_logo_1 fl"><a href="#"><img src="../img/rock_busan.png"></a></li>
-          <li class="foot_logo_2 fl"><a href="#"></a><img src="../img/dynamic_busan.png"></a></li>
-          <li class="foot_txt fr">
+          <li class="foot_logo_1"><a href="#"><img src="../img/rock_busan.png"></a></li>
+          <li class="foot_logo_2"><a href="#"></a><img src="../img/dynamic_busan.png"></a></li>
+          <li class="foot_text">
             <p><span>(사)부산문화관광축제조직위원회</span><span>개인정보처리방침 | 이메일무단수집거부</span></p>
-            <p>대표전화 : 051-501-6051(우)47500 부산광역시 연제구 월드컵대로 344(거제동 1299) 아시아드주경기장</p>
+            <p><span>대표전화 : 051-501-6051(우)47500 부산광역시 연제구</span> 월드컵대로 344(거제동 1299) 아시아드주경기장</p>
           </li>
         </ul>
       </div>
+    
+  </div>
     </footer>
     <script defer src="../js/main.js"></script>
 </body>
