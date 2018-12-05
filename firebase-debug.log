@@ -1,0 +1,13 @@
+[debug] [2018-12-05T07:50:20.923Z] ----------------------------------------------------------------------
+[debug] [2018-12-05T07:50:20.930Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2018-12-05T07:50:20.931Z] CLI Version:   6.1.1
+[debug] [2018-12-05T07:50:20.931Z] Platform:      win32
+[debug] [2018-12-05T07:50:20.931Z] Node Version:  v10.13.0
+[debug] [2018-12-05T07:50:20.934Z] Time:          Wed Dec 05 2018 16:50:20 GMT+0900 (GMT+09:00)
+[debug] [2018-12-05T07:50:20.934Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-05T07:50:20.981Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-05T07:50:20.983Z] > authorizing via signed-in user
+[debug] [2018-12-05T07:50:20.983Z] [iam] checking project wowowo-busan for permissions ["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2018-12-05T07:50:20.988Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/wowowo-busan:testIamPermissions  
+
