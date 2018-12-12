@@ -1,13 +1,29 @@
-[debug] [2018-12-05T07:50:20.923Z] ----------------------------------------------------------------------
-[debug] [2018-12-05T07:50:20.930Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
-[debug] [2018-12-05T07:50:20.931Z] CLI Version:   6.1.1
-[debug] [2018-12-05T07:50:20.931Z] Platform:      win32
-[debug] [2018-12-05T07:50:20.931Z] Node Version:  v10.13.0
-[debug] [2018-12-05T07:50:20.934Z] Time:          Wed Dec 05 2018 16:50:20 GMT+0900 (GMT+09:00)
-[debug] [2018-12-05T07:50:20.934Z] ----------------------------------------------------------------------
+[debug] [2018-12-12T05:51:58.752Z] ----------------------------------------------------------------------
+[debug] [2018-12-12T05:51:58.765Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2018-12-12T05:51:58.766Z] CLI Version:   6.1.2
+[debug] [2018-12-12T05:51:58.766Z] Platform:      win32
+[debug] [2018-12-12T05:51:58.766Z] Node Version:  v10.13.0
+[debug] [2018-12-12T05:51:58.772Z] Time:          Wed Dec 12 2018 14:51:58 GMT+0900 (GMT+09:00)
+[debug] [2018-12-12T05:51:58.772Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-12-05T07:50:20.981Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-12-05T07:50:20.983Z] > authorizing via signed-in user
-[debug] [2018-12-05T07:50:20.983Z] [iam] checking project wowowo-busan for permissions ["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
-[debug] [2018-12-05T07:50:20.988Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/wowowo-busan:testIamPermissions  
+[debug] [2018-12-12T05:51:58.820Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-12T05:51:58.822Z] > authorizing via signed-in user
+[debug] [2018-12-12T05:51:58.822Z] [iam] checking project wowowo-busan for permissions ["firebase.projects.get"]
+[debug] [2018-12-12T05:51:58.833Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-12-12T05:51:58.834Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-12-12T05:51:59.349Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-12T05:51:59.380Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/wowowo-busan:testIamPermissions  
 
+[debug] [2018-12-12T05:52:00.590Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-12T05:52:00.593Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/wowowo-busan  
+ 
+[debug] [2018-12-12T05:52:01.752Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fbroot\portfolio_busan'...
+[info] 
+[debug] [2018-12-12T05:52:01.758Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/918911069105/clients/_:getWebAppConfig  
+ 
+[debug] [2018-12-12T05:52:02.660Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
