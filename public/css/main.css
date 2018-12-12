@@ -16,6 +16,7 @@
 .navs .logo{margin-bottom:0.5em;}
 .navs .nav>li{float:left; width:16.66%; }
 .nav>li>a{width:inherit; font-size:1rem;}
+#tubular-container {position:absolute !important; }
 
 /* about */
 #about{background-color:#fff;}

@@ -1,4 +1,4 @@
-$('.movie_bg').tubular({videoId:'SC2zteloma4'});
+$('#header').tubular({videoId:'TwKUuatECsw'});
 
 $(".artist>li").hover(function(){
     $(this).find(".img").css({"transform":"scale(1.2)","opacity":"0.6"});
