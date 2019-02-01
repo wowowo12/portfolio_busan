@@ -57,7 +57,7 @@ function wheelFn(e){
     } else{
         if (now< gap.length - 1) now++;
      }
-     if(now=4){
+     if(now==4){
          $(".news_img1").addClass("news_img1_ani");  
          $(".news_img2").addClass("news_img2_ani");       
      }
